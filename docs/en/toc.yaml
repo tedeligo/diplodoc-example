@@ -1,14 +1,5 @@
 title: Documentation Project Template
 href: index.yaml
-  navigation:
-     logo:
-     url: .index.html
-     text: Хелп.Перезагрузка
-  header:
-    leftitems:
-      - type: link
-        text: API
-        url: https://demo.megaplan.ru/api/v3/docs
 items: 
   - name: About
     href: about.md
@@ -16,6 +7,8 @@ items:
     href: page.md
   - name: Another page 
     href: anotherpage.md
+  - name: Пример статьи Мегаплана
+    href: megadoc.md
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml

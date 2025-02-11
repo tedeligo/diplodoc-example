@@ -163,7 +163,7 @@
 Работа с карточкой контакта заключается в занесении информации. После взаимодействий с клиентом результат указывается в журнале комментариев.
 
 
-#### Есть идея попробовать таблицы
+### Есть идея попробовать таблицы
 
 Таблица 1
 
@@ -195,4 +195,39 @@ Text before other table
 Text after other table||
 || 3
 | 4||
+|#
+
+
+Ячейки можно объединить по вертикали с помощью символа «^»:
+
+#|
+|| Header1                | Header2      ||
+|| Text spanning two rows | Another text ||
+|| ^                      | More text    ||
+|#
+
+Горизонтальное объединение поддерживается символом ">".:
+
+#|
+|| Header1                   | Header2     ||
+|| Text spanning two columns | >           ||
+|| Another text              | More text   ||
+|#
+
+
+Объединяемые символы можно использовать вместе:
+
+#|
+|| Header1                                | Header2     | Header3    || 
+|| Text spanning two columns and two rows | >           | Text       ||
+|| ^                                      | >           | More text  ||
+|#
+
+
+Чтобы управлять выравниванием текста в ячейках, можно использовать синтаксис атрибутов внутри ячеек:
+
+#|
+|| Header1                                                     | Header2     | Header3    || 
+|| Text spanning two columns and two rows {.cell-align-center} | >           | Text      ||
+|| ^                                                           | >           | More text  ||
 |#

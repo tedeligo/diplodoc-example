@@ -7,6 +7,8 @@ items:
     href: page.md
   - name: Another page 
     href: anotherpage.md
+  - name: Пример статьи Мегаплана
+    href: megadoc.md
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml

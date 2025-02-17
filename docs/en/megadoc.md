@@ -231,3 +231,5 @@ Text after other table||
 || Text spanning two columns and two rows {.cell-align-center} | >           | Text      ||
 || ^                                                           | >           | More text  ||
 |#
+
+Первое слово, скрывает <!--второе-->
